@@ -9,8 +9,10 @@ The main library used to implement the dashboard is the dash library. To gather 
 
 - 2: Before you can start the model you need to download the necessary data. To do this you will have run the following model.
 
-from Data import AvanzaData as avanza
-avanza.retrieveStock(save=True)
-avanza.donwloadPrices(save=True)
+    from Data import AvanzaData as avanza
+    
+    avanza.retrieveStock(save=True)
+    
+    avanza.donwloadPrices(save=True)
 
 - 3: Now you can start the application by initializing the script App.py
